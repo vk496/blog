@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on ExampleSite</title>
+    <link>https://examplesite.com/posts/</link>
+    <description>Recent content in Posts on ExampleSite</description>
+    <image>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 03 Oct 2021 15:44:08 +0200</lastBuildDate><atom:link href="https://examplesite.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Asterisk on Openwrt</title>
+      <link>https://examplesite.com/posts/install-asterisk-openwrt/</link>
+      <pubDate>Sun, 03 Oct 2021 15:44:08 +0200</pubDate>
+      
+      <guid>https://examplesite.com/posts/install-asterisk-openwrt/</guid>
+      <description>Well, this is my first blog post. Less text and more fun :)
+My ISP (Red by SFR) give me a fixed line phone. Calling from the fixed phone is free for fixed and portable numbers. The downside is the need of using a analogic phone connected to the ISP router (box NB7). Moreover, the ISP router must handle the public IP address (be the main router). Unacceptable
+So after spending days</description>
+    </item>
+    
+  </channel>
+</rss>
