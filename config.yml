@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://vk496.es/"
+title: vk496 blog
 paginate: 5
 theme: PaperMod
 
@@ -19,10 +19,10 @@ params:
     title: ExampleSite
     description: "ExampleSite description"
     keywords: [Blog, Portfolio, PaperMod]
-    author: Me
+    author: vk496
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "January 2, 2006"
+    DateFormat: "2 January 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
@@ -49,7 +49,7 @@ params:
         safari_pinned_tab: "<link / abs url>"
 
     label:
-        text: "Home"
+        text: "/home"
         icon: /apple-touch-icon.png
         iconHeight: 35
 
@@ -70,7 +70,7 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
+        Title: "echo -e \"Hi \U0001F44B" # Upss, sorry. Did I produced you a OCD ? :)
         Content: Linux and Open Source related projects. Just for fun
 
     socialIcons:
@@ -83,8 +83,8 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/vk496/blog/content"
-        Text: "Suggest Changes" # edit text
+        URL: "https://github.com/vk496/blog/edit/main/content"
+        Text: "Edit \U0000270D" # edit text
         appendFilePath: true # to append file path to Edit link
 
     # for search
@@ -100,17 +100,13 @@ params:
 menu:
     main:
         - identifier: categories
-          name: categories
+          name: /categories
           url: /categories/
           weight: 10
         - identifier: tags
-          name: tags
+          name: /tags
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
-          weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
